@@ -17,8 +17,8 @@ IPAddress gateway(192, 168, 0, 1);
 IPAddress subnet(255, 255, 255, 0);
 
 // Default Temperature Thresholds
-String maxTempInput = "27.5";  // AC turns ON above this
-String minTempInput = "26.0";  // AC turns OFF below this
+String maxTempInput = "27.5";  // AC turns ON above this Default Value
+String minTempInput = "26.0";  // AC turns OFF below this Default Value
 String lastTemperature;
 
 // AC state and manual override
